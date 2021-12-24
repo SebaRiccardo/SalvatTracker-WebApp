@@ -1,0 +1,43 @@
+extends layout
+
+block content
+  nav.navbar.navbar-expand-lg.bg-primary
+    .container
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#example-navbar', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-bar.bar1
+        span.navbar-toggler-bar.bar2
+        span.navbar-toggler-bar.bar3
+      #navbarTogglerDemo01.collapse.navbar-collapse
+        a.navbar-brand(href='#') Hidden brand
+        ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+          li.nav-item.active
+            a.nav-link(href='#')
+              | Home
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='#') Link
+          li.nav-item
+            a.nav-link.disabled(href='#') Disabled
+        form.form-inline.ml-auto(data-background-color='')
+          .form-group.has-white
+            input.form-control(type='text', placeholder='Search')
+
+
+  // book grids
+  .container-fluid
+    - var books = list
+    .row
+      each book in books
+        .col.col-lg-4.col-md-12.col-sm-12.d-flex.align-items-stretch.justify-content-center
+          .card.mb-3(style='max-width: 940px;')
+            .row.no-gutters
+              .col-md-4
+                img(src=book.picture, alt='...')
+              .col-md-8
+                .card-body
+                  h5.card-title=book.title
+                  h6.card-subtitle.mb-2.text-muted=book.author
+                  p.card-text=book.description
+
+                  p.card-text
+                    small.text-muted="Fecha de lanzamiento en Argentina:" + book.releaseDate
