@@ -2594,6 +2594,33 @@ p {
 .text-black {
   color: #444; }
 
+.Tangerine-font {
+  font-family: "Tangerine", Arial; }
+
+.Cinzel-Decorative-font {
+  font-family: "Cinzel Decorative", Arial; }
+
+.main-title {
+  background: linear-gradient(to bottom, #cfc09f 22%, #634f2c 24%, #cfc09f 26%, #cfc09f 27%, #ffecb3 40%, #3a2c0f 78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 10vw;
+  margin: 0;
+  font-weight: 400; }
+
+.main-title:after {
+  background: none;
+  content: attr(data-heading);
+  left: 0;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+  text-shadow: -1px 0 1px #c6bb9f, 0 1px 1px #c6bb9f, 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4); }
+
 .blockquote {
   border-left: none;
   border: 1px solid #888888;
@@ -2619,6 +2646,11 @@ p {
     color: #FFFFFF; }
     .blockquote.blockquote-white small {
       color: rgba(255, 255, 255, 0.8); }
+  .blockquote.blockquote-green {
+    border-color: #4a615f;
+    color: #3d504e; }
+    .blockquote.blockquote-green small {
+      color: #3d504e; }
 
 body {
   color: #2c2c2c;
@@ -2626,7 +2658,8 @@ body {
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  background: radial-gradient(ellipse at center, #bffbfa 0%, black); }
 
 .main {
   position: relative;
@@ -3350,6 +3383,9 @@ Created using IcoMoon - icomoon.io
 
 .bg-primary {
   background-color: #f96332 !important; }
+
+.bg-top-bar-color {
+  background-color: #2d406f !important; }
 
 .bg-info {
   background-color: #2CA8FF !important; }

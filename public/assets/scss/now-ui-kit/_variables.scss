@@ -3,6 +3,8 @@
 //## For each of Bootstrap's buttons, define text, background and border color.
 
 $sans-serif-family:          'Montserrat', 'Helvetica Neue',  Arial, sans-serif !default;
+$Tangerine-font:             'Tangerine', Arial !default;
+$Cinzel-Decorative:           'Cinzel Decorative', Arial !default;
 
 $none:                       0   !default;
 $border-thin:                1px !default;
@@ -41,6 +43,12 @@ $opacity-2:                  rgba(255,255,255, .2) !default;
 
 $transparent-bg:             transparent !default;
 $dark-background:            #555555 !default;
+
+//my colors
+$robinson-green: #3d504e !default;
+$robinson-light-green: lighten($robinson-green, 6%) !default;
+$tom-sawyer-blue: #2d406f !default;
+$golden-color: #ffd37e !default;
 
 $default-color:              #888888 !default;
 $default-states-color:       lighten($default-color, 6%) !default;
