@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 
      let  booksList = data
      console.log("Books count: "+booksList.length)
-      res.render('index', { list: booksList});
+     res.render('index', { list: booksList});
 });
 
 module.exports = router;
