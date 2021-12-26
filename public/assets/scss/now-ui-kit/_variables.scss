@@ -47,6 +47,7 @@ $dark-background:            #555555 !default;
 //my colors
 $robinson-green: #3d504e !default;
 $robinson-light-green: lighten($robinson-green, 6%) !default;
+$light-aqua-green: #bffbfa !default
 $tom-sawyer-blue: #2d406f !default;
 $golden-color: #ffd37e !default;
 
@@ -80,6 +81,7 @@ $danger-color-opacity:       rgba(255, 54, 54, .3) !default;
 $danger-color-alert:         rgba(255, 54, 54, .8) !default;
 
 /*     brand Colors              */
+
 $brand-primary:              $primary-color !default;
 $brand-info:                 $info-color !default;
 $brand-success:              $success-color !default;

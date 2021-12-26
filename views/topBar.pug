@@ -1,0 +1,29 @@
+//Navbar
+div
+    nav.navbar.navbar-expand-lg.bg-green.fixed-top.navbar-transparent(color-on-scroll='400')
+        .container
+            .dropdown.button-dropdown
+                a#navbarDropdown.dropdown-toggle(href='#' data-toggle='dropdown')
+                    span.button-bar
+                    span.button-bar
+                    span.button-bar
+                .dropdown-menu(aria-labelledby='navbarDropdown')
+                    a.dropdown-header Páginas Oficiales
+                    a.dropdown-item(href='https://salvat.com/') SALVAT
+                    .dropdown-divider
+                    a.dropdown-item(href='https://ar.salvat.com/') SALVAT ARGENTINA
+                    a.dropdown-item(href='https://ar.salvat.com/colecciones/grandes-novelas-aventuras/index.html#obra') Colección
+            .navbar-translate
+                a.navbar-brand(href='https://ar.salvat.com/colecciones/grandes-novelas-aventuras/index.html#obra' rel='tooltip' title='Una pagina donde podes seguir tus colecciones favoritas' data-placement='bottom' target='_blank')
+                    | Collection Tracker
+                button.navbar-toggler.navbar-toggler(type='button' data-toggle='collapse' data-target='#navigation' aria-controls='navigation-index' aria-expanded='false' aria-label='Toggle navigation')
+                    span.navbar-toggler-bar.top-bar
+                    span.navbar-toggler-bar.middle-bar
+                    span.navbar-toggler-bar.bottom-bar
+            #navigation.collapse.navbar-collapse.justify-content-end(data-nav-image='../assets/img/blurred-image-1.jpg')
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link(rel='tooltip' title='Facebook de Salvat' data-placement='bottom' href='https://www.facebook.com/GrandesNovelasSalvatArg' target='_blank')
+                            i.fab.fa-facebook-square
+                            p.d-lg-none.d-xl-none Facebook
+//end navbar

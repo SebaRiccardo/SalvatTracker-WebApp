@@ -1,20 +1,14 @@
 extends layout
 
 block content
-  //top nav bar
-  nav.navbar.navbar-light.navbar-transparent
-    .container
-      h3
-       a.Cinzel-Decorative-font.navbar-brand.nav-link(href='https://ar.salvat.com/colecciones/grandes-novelas-aventuras/index.html#obra') Página Oficial
-
-  .container
-    .row.d-inline
-      .col.d-flex.justify-content-center
-        h1.Cinzel-Decorative-font.display-3.text-white Grandes Novelas de
+  //title container
+  .container.mt-5
+    .row.d-inline.pt-5
+      .col.d-flex.justify-content-center.mt-5
+        h2.Cinzel-Decorative-font.display-3.text-white.section-title Grandes Novelas de
       .col.d-flex.justify-content-center
         h1(data-heading='Aventuras' contenteditable='').Cinzel-Decorative-font.display-1.main-title Aventuras
-
-  // book grids
+  //book grids
   .container-xl.m-5
     - var books = list
     .row

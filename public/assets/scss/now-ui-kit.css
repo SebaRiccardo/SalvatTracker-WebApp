@@ -2652,6 +2652,97 @@ p {
     .blockquote.blockquote-green small {
       color: #3d504e; }
 
+/* Si la pantalla es 200px de ancho o mas*/
+@media screen and (min-width: 200px) {
+  .section-title {
+    font-size: 2.4em; }
+  .section-subtitle {
+    font-size: 1.3em; }
+  .section-body {
+    font-size: 1.3em; }
+  .muelita-font-size {
+    font-size: 0em; }
+  .h4 {
+    font-size: 1.2em; } }
+
+/* Si la pantalla es 280px de ancho o mas*/
+@media screen and (min-width: 280px) {
+  .section-title {
+    font-size: 2.4em; }
+  .section-subtitle {
+    font-size: 1.3em; }
+  .section-body {
+    font-size: 1.3em; }
+  .muelita-font-size {
+    font-size: 0em; }
+  .h4 {
+    font-size: 1.3em; } }
+
+/* Si la pantalla es 320px de ancho o mas*/
+@media screen and (min-width: 320px) {
+  .section-title {
+    font-size: 2.4em; }
+  .section-subtitle {
+    font-size: 1.6em; }
+  .section-body {
+    font-size: 1.3em; }
+  .muelita-font-size {
+    font-size: 0em; }
+  .h4 {
+    font-size: 1.3em; } }
+
+/* Si la pantalla es 480px de ancho o mas*/
+@media screen and (min-width: 480px) {
+  .section-title {
+    font-size: 2.6em; }
+  .section-subtitle {
+    font-size: 1.8em; }
+  .section-body {
+    font-size: 1.3em; }
+  .muelita-font-size {
+    font-size: 0em; }
+  .h4 {
+    font-size: 1.3em; } }
+
+/* Si la pantalla es 768px de ancho o mas*/
+@media screen and (min-width: 768px) {
+  .section-title {
+    font-size: 2.8em; }
+  .section-subtitle {
+    font-size: 1.9em; }
+  .section-body {
+    font-size: 1.4em; }
+  .muelita-font-size {
+    font-size: 1.9em; }
+  .h4 {
+    font-size: 1.4em; } }
+
+/* Si la pantalla es 1024px de ancho o mas*/
+@media screen and (min-width: 1024px) {
+  .section-title {
+    font-size: 3.0em; }
+  .section-subtitle {
+    font-size: 2em; }
+  .section-body {
+    font-size: 1.5em; }
+  .muelita-font-size {
+    font-size: 2em; }
+  .h4 {
+    font-size: 1.6em; } }
+
+/* Si la pantalla es 1200px de ancho o mas*/
+@media screen and (min-width: 1200px) {
+  .section-title {
+    font-size: 4.6em; }
+  .section-subtitle {
+    font-size: 2.8em; }
+  .section-body {
+    font-size: 1.5em; }
+  .muelita-font-size {
+    font-size: 3.5em; }
+  .h4 {
+    font-size: 1.6em; } }
+
 body {
   color: #2c2c2c;
   font-size: 14px;
@@ -3386,6 +3477,9 @@ Created using IcoMoon - icomoon.io
 
 .bg-top-bar-color {
   background-color: #2d406f !important; }
+
+.bg-green {
+  background-color: #4a615f !important; }
 
 .bg-info {
   background-color: #2CA8FF !important; }
@@ -4627,18 +4721,7 @@ img {
     -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
     .sidebar-collapse .navbar-collapse:before {
-      background: #f96332;
-      /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(#f96332 0%, #000 80%);
-      /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(#f96332 0%, #000 80%);
-      /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(#f96332 0%, #000 80%);
-      /* For Firefox 3.6 to 15 */
-      background: linear-gradient(#f96332 0%, #000 80%);
-      /* Standard syntax (must be last) */
-      opacity: 0.76;
-      filter: alpha(opacity=76);
+      background: #4a615f;
       display: block;
       content: "";
       position: absolute;
@@ -4960,18 +5043,7 @@ img {
     -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
     .burger-menu .navbar-collapse:before {
-      background: #f96332;
-      /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(#f96332 0%, #000 80%);
-      /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(#f96332 0%, #000 80%);
-      /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(#f96332 0%, #000 80%);
-      /* For Firefox 3.6 to 15 */
-      background: linear-gradient(#f96332 0%, #000 80%);
-      /* Standard syntax (must be last) */
-      opacity: 0.76;
-      filter: alpha(opacity=76);
+      background: #4a615f;
       display: block;
       content: "";
       position: absolute;
