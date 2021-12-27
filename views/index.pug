@@ -13,30 +13,21 @@ block content
     - var books = list
     .row
       each book in books
-        .col.col-xl-6.col-lg-6.col-md-12.col-sm-12.d-flex.align-items-stretch.justify-content-center
+        .col.col-xl-6.col-lg-12.col-md-12.col-sm-12.d-flex.align-items-stretch.justify-content-center
           .card.mb-4(style='max-width: 940px;')
-            .row.no-gutters
-              .col-md-4
-                img(src=book.picture, alt='...')
-              .col-md-8
+                img.card-img-top(src=book.picture, alt='...').card-book-image
                 .card-body
-                  h3.card-title=book.title
-                  h6.card-subtitle.mb-2.text-muted=book.author
+                  h3.h3-reponsive.card-title=book.title
+                  h6.h6-reponsive.card-subtitle.mb-2.text-muted=book.author
                   .card-text
-                    if book.description !== ""
-                     blockquote.blockquote.blockquote-green.mb-0
-                       p=book.description
-                  .card-text
-                    .container.mt-4.mb-2
-                      .row
-                       h6="Precio de Venta: $"+ book.price
-                       h6.ml-1.text-danger=" + 45 (Recargo Interior)"
-
+                    .container.fluid.mt-4.mb-2.section-prices
+                      .row.d-flex
+                       h6.h6-reponsive="Precio de Venta: $"+ book.price
+                       h6.h6-reponsive.ml-1.text-danger=" + 45 (Recargo Interior)"
                     if book.wasReleased
-                       h6.text-success="Lanzamiento en Argentina: " + book.releaseDate
+                       h6.h6-reponsive.text-success="Lanzamiento en Argentina: " + book.releaseDate
                     else
-                       h6="Lanzamiento en Argentina: " + book.releaseDate
-
+                       h6.h6-reponsive="Lanzamiento en Argentina: " + book.releaseDate
                   .card-footer.text-muted.mb-2
-                    h5.my-3="ISBN: " + book.ISBN
-                    h5.small.text-muted=book.editorial
+                    h5.h5-reponsive.my-3="ISBN: " + book.ISBN
+                    h5.h6-reponsive.small.text-muted=book.editorial

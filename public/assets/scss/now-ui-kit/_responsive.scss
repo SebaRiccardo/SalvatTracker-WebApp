@@ -230,6 +230,12 @@
             float: right;
         }
     }
+    .navbar{
+        height: 60px;
+    }
+    .card-book-image{
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -243,6 +249,13 @@
         &.image-left{
             margin-right: -100px;
         }
+    }
+
+    .section-prices {
+        margin-left: 0;
+    }
+    .section-title{
+        margin-top: 100px;
     }
 }
 
@@ -271,6 +284,9 @@
         }
     }
 
+    .navbar{
+        height: 100px;
+    }
     .landing-page .section-story-overview .image-container:nth-child(2){
         margin-left: 0;
         margin-bottom: 30px;

@@ -2655,28 +2655,40 @@ p {
 /* Si la pantalla es 200px de ancho o mas*/
 @media screen and (min-width: 200px) {
   .section-title {
-    font-size: 2.4em; }
+    font-size: 3.4em; }
   .section-subtitle {
     font-size: 1.3em; }
   .section-body {
     font-size: 1.3em; }
   .muelita-font-size {
     font-size: 0em; }
-  .h4 {
-    font-size: 1.2em; } }
+  .h3-reponsive {
+    font-size: 1.6em; }
+  .h4-reponsive {
+    font-size: 1.2em; }
+  .h5-reponsive {
+    font-size: 1.8em; }
+  .h6-reponsive {
+    font-size: 1.5em; } }
 
 /* Si la pantalla es 280px de ancho o mas*/
 @media screen and (min-width: 280px) {
   .section-title {
-    font-size: 2.4em; }
+    font-size: 3.4em; }
   .section-subtitle {
     font-size: 1.3em; }
   .section-body {
     font-size: 1.3em; }
   .muelita-font-size {
     font-size: 0em; }
-  .h4 {
-    font-size: 1.3em; } }
+  .h3-reponsive {
+    font-size: 1.6em; }
+  .h4-reponsive {
+    font-size: 1.2em; }
+  .h5-reponsive {
+    font-size: 1.8em; }
+  .h6-reponsive {
+    font-size: 1.5em; } }
 
 /* Si la pantalla es 320px de ancho o mas*/
 @media screen and (min-width: 320px) {
@@ -2688,8 +2700,14 @@ p {
     font-size: 1.3em; }
   .muelita-font-size {
     font-size: 0em; }
-  .h4 {
-    font-size: 1.3em; } }
+  .h3-reponsive {
+    font-size: 1.6em; }
+  .h4-reponsive {
+    font-size: 1.2em; }
+  .h5-reponsive {
+    font-size: 1.8em; }
+  .h6-reponsive {
+    font-size: 1.5em; } }
 
 /* Si la pantalla es 480px de ancho o mas*/
 @media screen and (min-width: 480px) {
@@ -2701,34 +2719,54 @@ p {
     font-size: 1.3em; }
   .muelita-font-size {
     font-size: 0em; }
-  .h4 {
-    font-size: 1.3em; } }
+  .h3-reponsive {
+    font-size: 1.6em; }
+  .h4-reponsive {
+    font-size: 1.2em; }
+  .h5-reponsive {
+    font-size: 1.8em; }
+  .h6-reponsive {
+    font-size: 1.5em; } }
 
 /* Si la pantalla es 768px de ancho o mas*/
 @media screen and (min-width: 768px) {
   .section-title {
-    font-size: 2.8em; }
+    font-size: 4.0em; }
   .section-subtitle {
     font-size: 1.9em; }
   .section-body {
     font-size: 1.4em; }
   .muelita-font-size {
     font-size: 1.9em; }
-  .h4 {
-    font-size: 1.4em; } }
+  .h3-reponsive {
+    font-size: 4.6em; }
+  .h4-reponsive {
+    font-size: 3.2em; }
+  .h5-reponsive {
+    font-size: 2.4em; }
+  .h6-reponsive {
+    font-size: 2.0em; }
+  .navbar-brand-responsive {
+    font-size: 1em; } }
 
 /* Si la pantalla es 1024px de ancho o mas*/
 @media screen and (min-width: 1024px) {
   .section-title {
-    font-size: 3.0em; }
+    font-size: 4.6em; }
   .section-subtitle {
     font-size: 2em; }
   .section-body {
     font-size: 1.5em; }
   .muelita-font-size {
     font-size: 2em; }
-  .h4 {
-    font-size: 1.6em; } }
+  .h3-reponsive {
+    font-size: 2.825em; }
+  .h4-reponsive {
+    font-size: 2.5em; }
+  .h5-reponsive {
+    font-size: 2.3em; }
+  .h6-reponsive {
+    font-size: 1.9em; } }
 
 /* Si la pantalla es 1200px de ancho o mas*/
 @media screen and (min-width: 1200px) {
@@ -2740,8 +2778,14 @@ p {
     font-size: 1.5em; }
   .muelita-font-size {
     font-size: 3.5em; }
-  .h4 {
-    font-size: 1.6em; } }
+  .h3-reponsive {
+    font-size: 1.825em; }
+  .h4-reponsive {
+    font-size: 1.5em; }
+  .h5-reponsive {
+    font-size: 1.3em; }
+  .h6-reponsive {
+    font-size: .9em; } }
 
 body {
   color: #2c2c2c;
@@ -5253,7 +5297,11 @@ img {
       position: relative;
       top: 1px; }
   .footer .copyright {
-    float: right; } }
+    float: right; }
+  .navbar {
+    height: 60px; }
+  .card-book-image {
+    width: 50%; } }
 
 @media screen and (min-width: 768px) {
   .image-container.image-right {
@@ -5261,7 +5309,11 @@ img {
     margin-left: -100px;
     margin-bottom: 130px; }
   .image-container.image-left {
-    margin-right: -100px; } }
+    margin-right: -100px; }
+  .section-prices {
+    margin-left: 0; }
+  .section-title {
+    margin-top: 100px; } }
 
 @media screen and (max-width: 768px) {
   .image-container.image-left {
@@ -5278,6 +5330,8 @@ img {
     text-align: center; }
     .nav-tabs .nav-item > .nav-link {
       margin-bottom: 5px; }
+  .navbar {
+    height: 100px; }
   .landing-page .section-story-overview .image-container:nth-child(2) {
     margin-left: 0;
     margin-bottom: 30px; } }
