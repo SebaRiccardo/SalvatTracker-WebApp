@@ -20,16 +20,30 @@ block content
                 .card-body
                   h3.h3-reponsive.card-title=book.title
                   h6.h6-reponsive.card-subtitle.mb-2.text-muted=book.author
+                  //all the book info
                   .card-text
+                    //prices info
                     .container.fluid.mt-4.section-prices
                       .row.d-flex
-                       h5.h5-reponsive="Precio de Venta: $"+ book.price
-                       h5.h5-reponsive.ml-1.text-danger=" + $45 (Recargo Interior)"
+                        h5.h5-reponsive="Precio de Venta: $"+ book.price
+                        h5.h5-reponsive.ml-1.text-info=" + $45 (Recargo Interior)"
+                    // release info
                     if book.wasReleased
-                       h5.h5-reponsive.text-success="Lanzamiento en Argentina*: " + book.releaseDate
+                       h5.h5-reponsive="Lanzamiento en Argentina* : " + book.releaseDate
                     else
-                       h5.h5-reponsive.text-warning="Fecha estimada de lanzamiento*: " + book.releaseDate
+                       h5.h5-reponsive="Fecha estimada de lanzamiento* : " + book.releaseDate
+                  // extra info
                   .card-footer.text-muted.mb-2
-                    h5.h5-reponsive.my-3="ISBN: " + book.ISBN
+                    if book.wasReleased
+                          .container.fluid.section-prices
+                              .row.text-success
+                                  h6.h6-reponsive.small.mr-2="Lanzado"
+                                  i.now-ui-icons.ui-1_check.font-weight-bold
+                    else
+                          .container.fluid.section-prices
+                              .row.text-warning
+                                  h6.h6-reponsive.small.mr-2="Proximamente"
+                                  i.now-ui-icons.loader_refresh.font-weight-bold
+                    h6.h6-reponsive.my-3="ISBN: " + book.ISBN
                     h6.h6-reponsive.small=book.editorial
                     small.text-muted="(*Las fechas de entrega pueden variar)"
