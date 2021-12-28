@@ -13,7 +13,7 @@ block content
     - var books = list
     .row
       each book in books
-        .col.col-xl-6.col-lg-12.col-md-12.col-sm-12.d-flex.align-items-stretch.justify-content-center
+        .col.col-xl-4.col-lg-12.col-md-12.col-sm-12.d-flex.align-items-stretch.justify-content-center
           .card.mb-4(style='max-width: 940px;')
                 .row.d-flex.justify-content-center
                     img.card-img-top(src=book.picture, alt='...').card-book-image.m-2
@@ -26,9 +26,10 @@ block content
                        h5.h5-reponsive="Precio de Venta: $"+ book.price
                        h5.h5-reponsive.ml-1.text-danger=" + $45 (Recargo Interior)"
                     if book.wasReleased
-                       h5.h5-reponsive.text-success="Lanzamiento en Argentina: " + book.releaseDate
+                       h5.h5-reponsive.text-success="Lanzamiento en Argentina*: " + book.releaseDate
                     else
-                       h5.h5-reponsive.text-warning="Fecha estimada de lanzamiento: " + book.releaseDate
+                       h5.h5-reponsive.text-warning="Fecha estimada de lanzamiento*: " + book.releaseDate
                   .card-footer.text-muted.mb-2
                     h5.h5-reponsive.my-3="ISBN: " + book.ISBN
                     h6.h6-reponsive.small=book.editorial
+                    small.text-muted="(*Las fechas de entrega pueden variar)"
