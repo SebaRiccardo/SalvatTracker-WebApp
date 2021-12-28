@@ -15,19 +15,20 @@ block content
       each book in books
         .col.col-xl-6.col-lg-12.col-md-12.col-sm-12.d-flex.align-items-stretch.justify-content-center
           .card.mb-4(style='max-width: 940px;')
-                img.card-img-top(src=book.picture, alt='...').card-book-image
+                .row.d-flex.justify-content-center
+                    img.card-img-top(src=book.picture, alt='...').card-book-image.m-2
                 .card-body
                   h3.h3-reponsive.card-title=book.title
                   h6.h6-reponsive.card-subtitle.mb-2.text-muted=book.author
                   .card-text
-                    .container.fluid.mt-4.mb-2.section-prices
+                    .container.fluid.mt-4.section-prices
                       .row.d-flex
-                       h6.h6-reponsive="Precio de Venta: $"+ book.price
-                       h6.h6-reponsive.ml-1.text-danger=" + 45 (Recargo Interior)"
+                       h5.h5-reponsive="Precio de Venta: $"+ book.price
+                       h5.h5-reponsive.ml-1.text-danger=" + $45 (Recargo Interior)"
                     if book.wasReleased
-                       h6.h6-reponsive.text-success="Lanzamiento en Argentina: " + book.releaseDate
+                       h5.h5-reponsive.text-success="Lanzamiento en Argentina: " + book.releaseDate
                     else
-                       h6.h6-reponsive="Lanzamiento en Argentina: " + book.releaseDate
+                       h5.h5-reponsive.text-warning="Fecha estimada de lanzamiento: " + book.releaseDate
                   .card-footer.text-muted.mb-2
                     h5.h5-reponsive.my-3="ISBN: " + book.ISBN
-                    h5.h6-reponsive.small.text-muted=book.editorial
+                    h6.h6-reponsive.small=book.editorial

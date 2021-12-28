@@ -79,20 +79,20 @@
   },
   {
     "title":"Los 3 Mosqueteros Vol. 1",
-    "releaseDate": "",
+    "releaseDate": "21-12-2021",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
     "description": "",
     "author":"Alejandro Dumas",
     "picture": "/assets/img/covers/Los Tres Mosqueteros vol. I.png",
-    "wasReleased": false,
+    "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
     "romanNumber":""
   },
   {
     "title":"Los 3 Mosqueteros Vol. 2",
-    "releaseDate": "",
+    "releaseDate": "28-12-2021",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -105,7 +105,7 @@
   },
   {
     "title":"El Ultimo de los Mohicanos",
-    "releaseDate": "",
+    "releaseDate": "04-01-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
