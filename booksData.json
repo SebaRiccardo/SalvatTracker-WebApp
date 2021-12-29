@@ -99,7 +99,7 @@
     "description": "",
     "author":"Alejandro Dumas",
     "picture": "/assets/img/covers/Los Tres Mosqueteros vol. II.png",
-    "wasReleased": false,
+    "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
     "romanNumber":""
   },
