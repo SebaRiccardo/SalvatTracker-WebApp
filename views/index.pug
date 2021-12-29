@@ -4,16 +4,16 @@ block content
   //title container
   .container.mt-5
     .row.d-inline.pt-5
-      .col.d-flex.justify-content-center.mt-5
+      .col.d-flex.justify-content-center.mt-5.px-0
         h2.Cinzel-Decorative-font.display-3.text-white.section-title Grandes Novelas de
       .col.d-flex.justify-content-center
         h1(data-heading='Aventuras').Cinzel-Decorative-font.display-1.main-title Aventuras
   //book grids
-  .container-xl.m-5
+  .container-xl.m-2
     - var books = list
     .row
       each book in books
-        .col.col-xl-4.col-lg-12.col-md-12.col-sm-12.d-flex.align-items-stretch.justify-content-center
+        .col.col-xxl-3.col-xl-4.col-lg-12.col-md-12.col-sm-12.col-xs-12.d-flex.align-items-stretch.justify-content-center
           .card.mb-4(style='max-width: 940px;')
              .row.d-flex.justify-content-center
                  img.card-img-top(src=book.picture, alt='...').card-book-image.m-2
