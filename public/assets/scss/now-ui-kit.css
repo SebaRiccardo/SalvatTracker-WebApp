@@ -2704,13 +2704,13 @@ p {
   .muelita-font-size {
     font-size: 0em; }
   .h3-reponsive {
-    font-size: 1.6em; }
+    font-size: 2.5em; }
   .h4-reponsive {
-    font-size: 1.2em; }
+    font-size: 2.0em; }
   .h5-reponsive {
-    font-size: 1.8em; }
+    font-size: 1.7em; }
   .h6-reponsive {
-    font-size: 1.5em; } }
+    font-size: 1.4em; } }
 
 /* Si la pantalla es 480px de ancho o mas*/
 @media screen and (min-width: 480px) {
@@ -2723,13 +2723,13 @@ p {
   .muelita-font-size {
     font-size: 0em; }
   .h3-reponsive {
-    font-size: 1.6em; }
+    font-size: 2.5em; }
   .h4-reponsive {
-    font-size: 1.2em; }
+    font-size: 2.0em; }
   .h5-reponsive {
-    font-size: 1.8em; }
+    font-size: 1.7em; }
   .h6-reponsive {
-    font-size: 1.5em; } }
+    font-size: 1.4em; } }
 
 /* Si la pantalla es 768px de ancho o mas*/
 @media screen and (min-width: 768px) {
@@ -2742,13 +2742,13 @@ p {
   .muelita-font-size {
     font-size: 1.9em; }
   .h3-reponsive {
-    font-size: 4.6em; }
+    font-size: 3.0em; }
   .h4-reponsive {
-    font-size: 3.2em; }
-  .h5-reponsive {
-    font-size: 2.4em; }
-  .h6-reponsive {
     font-size: 2.0em; }
+  .h5-reponsive {
+    font-size: 1.7em; }
+  .h6-reponsive {
+    font-size: 1.4em; }
   .navbar-brand-responsive {
     font-size: 1em; } }
 
@@ -2765,11 +2765,11 @@ p {
   .h3-reponsive {
     font-size: 2.825em; }
   .h4-reponsive {
-    font-size: 2.5em; }
-  .h5-reponsive {
     font-size: 2.3em; }
+  .h5-reponsive {
+    font-size: 2.0em; }
   .h6-reponsive {
-    font-size: 1.9em; } }
+    font-size: 1.5em; } }
 
 /* Si la pantalla es 1200px de ancho o mas*/
 @media screen and (min-width: 1200px) {
@@ -2782,13 +2782,13 @@ p {
   .muelita-font-size {
     font-size: 3.5em; }
   .h3-reponsive {
-    font-size: 1.825em; }
+    font-size: 2.3em; }
   .h4-reponsive {
-    font-size: 1.5em; }
+    font-size: 1.8em; }
   .h5-reponsive {
-    font-size: 1.3em; }
+    font-size: 1.7em; }
   .h6-reponsive {
-    font-size: .9em; } }
+    font-size: 1.2em; } }
 
 body {
   color: #2c2c2c;
