@@ -6,6 +6,7 @@ html
     link(rel='icon' href='/assets/img/background/golden_flowers.png')
     meta(name='viewport' content='width=device-width, initial-scale=1')
     meta(name='theme-color' content='#000000')
+
     link(rel='preconnect' href='https://fonts.googleapis.com')
     link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
     link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700,200', rel='stylesheet')
@@ -13,12 +14,13 @@ html
     link(href='https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap' rel='stylesheet')
     link(href='https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap' rel='stylesheet')
     link(href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Tangerine:wght@400;700&display=swap' rel='stylesheet')
+
     link(href='/assets/css/bootstrap.min.css', rel='stylesheet')
     link(rel='stylesheet', href='/assets/scss/now-ui-kit.css')
 
   body.landing-page.sidebar-collapse
-    block topbar
-      include topBar.pug
+    block topbarResponsive
+      include topbarResponsive.pug
     // Plugins
     // Core JS Files
     script(src='/assets/js/core/jquery.min.js', type='text/javascript')

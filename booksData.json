@@ -112,13 +112,13 @@
     "description": "",
     "author":"James Fenimore Cooper",
     "picture": "/assets/img/covers/El último de los mohicanos.png",
-    "wasReleased": false,
+    "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
     "romanNumber":""
   },
   {
     "title":"Ivanhoe",
-    "releaseDate": "",
+    "releaseDate": "11-01-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -131,7 +131,7 @@
   },
   {
     "title":"La Flecha Negra",
-    "releaseDate": "",
+    "releaseDate": "18-01-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -144,7 +144,7 @@
   },
   {
     "title":"Las Minas del Rey Salomón",
-    "releaseDate": "",
+    "releaseDate": "25-01-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -157,7 +157,7 @@
   },
   {
     "title":"El Libro de la Selva",
-    "releaseDate": "",
+    "releaseDate": "01-02-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -170,7 +170,7 @@
   },
   {
     "title":"Los viajes de Gulliver",
-    "releaseDate": "",
+    "releaseDate": "08-02-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -183,7 +183,7 @@
   },
   {
     "title":"Veinte Mil Leguas de Viaje Submarinos",
-    "releaseDate": "",
+    "releaseDate": "15-02-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -196,7 +196,7 @@
   },
   {
     "title":"Las Aventuras de Huckleberry Finn",
-    "releaseDate": "",
+    "releaseDate": "22-02-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -209,7 +209,7 @@
   },
   {
     "title":"La Llamada de lo Salvaje",
-    "releaseDate": "",
+    "releaseDate": "01-03-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -222,7 +222,7 @@
   },
   {
     "title":"La Historia de dos Ciudades",
-    "releaseDate": "",
+    "releaseDate": "08-03-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -235,7 +235,7 @@
   },
   {
     "title":"El Principe y el Mendigo",
-    "releaseDate": "",
+    "releaseDate": "15-03-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -248,7 +248,7 @@
   },
   {
     "title":"La Ultima Batalla",
-    "releaseDate": "",
+    "releaseDate": "22-03-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -261,7 +261,7 @@
   },
   {
     "title":"El Extraño Caso de Dr. Jekyll y Mr. Hyde",
-    "releaseDate": "",
+    "releaseDate": "29-03-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -274,7 +274,7 @@
   },
   {
     "title":"Capitanes Intrepidos",
-    "releaseDate": "",
+    "releaseDate": "05-04-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -287,7 +287,7 @@
   },
   {
     "title":"Miguel Strogoff",
-    "releaseDate": "",
+    "releaseDate": "12-04-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -300,7 +300,7 @@
   },
   {
     "title":"El Prisionero de Zenda",
-    "releaseDate": "",
+    "releaseDate": "19-04-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -313,7 +313,7 @@
   },
   {
     "title":"Las Aventuras del Barón de Münchausen",
-    "releaseDate": "",
+    "releaseDate": "26-04-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -326,7 +326,7 @@
   },
   {
     "title":"Un Yanqui en la corte del Rey Arturo",
-    "releaseDate": "",
+    "releaseDate": "03-05-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -339,7 +339,7 @@
   },
   {
     "title":"El Tesoro del lago de plata",
-    "releaseDate": "",
+    "releaseDate": "10-05-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -352,7 +352,7 @@
   },
   {
     "title":"De la Tierra a la Luna",
-    "releaseDate": "",
+    "releaseDate": "17-05-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -365,7 +365,7 @@
   },
   {
     "title":"El Corsario Negro",
-    "releaseDate": "",
+    "releaseDate": "24-05-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -378,7 +378,7 @@
   },
   {
     "title":"Kim",
-    "releaseDate": "",
+    "releaseDate": "31-05-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -391,7 +391,7 @@
   },
   {
     "title":"Viaje al Centro de la Tierra",
-    "releaseDate": "",
+    "releaseDate": "07-06-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -404,7 +404,7 @@
   },
   {
     "title":"El Tulipan Negro",
-    "releaseDate": "",
+    "releaseDate": "14-06-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -417,7 +417,7 @@
   },
   {
     "title":"Oliver Twist",
-    "releaseDate": "",
+    "releaseDate": "21-06-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -430,7 +430,7 @@
   },
   {
     "title":"La Venganza de Sandokan",
-    "releaseDate": "",
+    "releaseDate": "28-06-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -443,7 +443,7 @@
   },
   {
     "title":"El Fantasma de la Opera",
-    "releaseDate": "",
+    "releaseDate": "05-07-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -456,7 +456,7 @@
   },
   {
     "title":"El Lobo de Mar",
-    "releaseDate": "",
+    "releaseDate": "12-07-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -469,7 +469,7 @@
   },
   {
     "title":"Cinco Semanas en Globo",
-    "releaseDate": "",
+    "releaseDate": "19-07-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -482,7 +482,7 @@
   },
   {
     "title":"Traición en Oriente",
-    "releaseDate": "",
+    "releaseDate": "26-07-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -495,7 +495,7 @@
   },
   {
     "title":"Las Alegres Aventuras de Robin Hood",
-    "releaseDate": "",
+    "releaseDate": "02-08-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -508,7 +508,7 @@
   },
   {
     "title":"El Fantasma de Canterville y otros relatos",
-    "releaseDate": "",
+    "releaseDate": "09-08-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -521,7 +521,7 @@
   },
   {
     "title":"Drácula",
-    "releaseDate": "",
+    "releaseDate": "16-08-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -534,7 +534,7 @@
   },
   {
     "title":"La Quimera del Oro",
-    "releaseDate": "",
+    "releaseDate": "23-08-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -547,7 +547,7 @@
   },
   {
     "title":"Primer Viaje alrededor del Globo",
-    "releaseDate": "",
+    "releaseDate": "30-08-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -560,7 +560,7 @@
   },
   {
     "title":"El Escarabajo de Oro y otros relatos",
-    "releaseDate": "",
+    "releaseDate": "06-09-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -573,7 +573,7 @@
   },
   {
     "title":"El Sabueso de los Baskerville",
-    "releaseDate": "",
+    "releaseDate": "13-09-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -586,7 +586,7 @@
   },
   {
     "title":"El León de Damasco",
-    "releaseDate": "",
+    "releaseDate": "20-09-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -599,7 +599,7 @@
   },
   {
     "title":"Las Aventuras Prodigiosas de Tartarin de Tarascon",
-    "releaseDate": "",
+    "releaseDate": "27-09-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -612,7 +612,7 @@
   },
   {
     "title":"Tom Sawyer Detective",
-    "releaseDate": "",
+    "releaseDate": "04-10-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -625,7 +625,7 @@
   },
   {
     "title":"Frankenstein",
-    "releaseDate": "",
+    "releaseDate": "11-10-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -638,7 +638,7 @@
   },
   {
     "title":"El Talismán",
-    "releaseDate": "",
+    "releaseDate": "18-10-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -651,7 +651,7 @@
   },
   {
     "title":"El Señor Balantry",
-    "releaseDate": "",
+    "releaseDate": "25-10-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -664,7 +664,7 @@
   },
   {
     "title":"El León de Damasco",
-    "releaseDate": "",
+    "releaseDate": "01-11-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -677,7 +677,7 @@
   },
   {
     "title":"El Faro del Fin del Mundo",
-    "releaseDate": "",
+    "releaseDate": "08-11-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -690,7 +690,7 @@
   },
   {
     "title":"Estudio en Escarlata",
-    "releaseDate": "",
+    "releaseDate": "15-11-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -703,7 +703,7 @@
   },
   {
     "title":"La Cabaña del Tío Tom",
-    "releaseDate": "",
+    "releaseDate": "22-11-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -716,7 +716,7 @@
   },
   {
     "title":"Quo vadis?",
-    "releaseDate": "",
+    "releaseDate": "29-11-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -729,7 +729,7 @@
   },
   {
     "title":"Secuestrado",
-    "releaseDate": "",
+    "releaseDate": "06-12-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -742,7 +742,7 @@
   },
   {
     "title":"El Mundo Perdido",
-    "releaseDate": "",
+    "releaseDate": "13-12-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -755,7 +755,7 @@
   },
   {
     "title":"El Conde de Montecristo (vol.I)",
-    "releaseDate": "",
+    "releaseDate": "20-12-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,
@@ -768,7 +768,7 @@
   },
   {
     "title":"El conde de Montecristo (vol.II)",
-    "releaseDate": "",
+    "releaseDate": "27-12-2022",
     "price": 1299.90,
     "extrafees": 45,
     "ISBN": 0 ,

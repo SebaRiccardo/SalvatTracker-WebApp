@@ -1,0 +1,51 @@
+nav.navbar.navbar-expand-lg.bg-green.fixed-top.navbar-transparent(color-on-scroll='200')
+    .container
+        .dropdown.button-dropdown
+            a#navbarDropdown.dropdown-toggle(href='#pablo' data-toggle='dropdown')
+                span.button-bar
+                span.button-bar
+                span.button-bar
+            .dropdown-menu(aria-labelledby='navbarDropdown')
+                a.dropdown-header Paginas Oficiales
+                a.dropdown-item(href='https://ar.salvat.com/') Salvat Argentina
+                a.dropdown-item(href='https://www.facebook.com/GrandesNovelasSalvatArg') Facebook Salvat
+                a.dropdown-item(href='https://ar.salvat.com/colecciones/grandes-novelas-aventuras/index.html#obra') Obra Editorial
+                a.dropdown-item(href='https://www.youtube.com/channel/UCUAu1fWh-Bbbanz2EnnHUjQ') Canal de Youtube
+                .dropdown-divider
+                a.dropdown-item(href='https://brihet.com.ar/product/grandes-novelas-de-aventuras/') Donde Comprar?
+        .navbar-translate
+            a.navbar-brand(href='/' rel='tooltip' title=':)' data-placement='bottom' target='_blank')
+                | Book Collection Tracker
+            button.navbar-toggler.navbar-toggler(type='button' data-toggle='collapse' data-target='#navigation' aria-controls='navigation-index' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-bar.top-bar
+                span.navbar-toggler-bar.middle-bar
+                span.navbar-toggler-bar.bottom-bar
+        #navigation.collapse.navbar-collapse.justify-content-end
+            ul.navbar-nav
+                li.nav-item
+                    a.nav-link(rel='tooltip' title='Canal Oficial' data-placement='bottom' href='https://www.youtube.com/channel/UCUAu1fWh-Bbbanz2EnnHUjQ' target='_blank')
+                        i.fab.fa-youtube
+                        p.d-lg-none.d-xl-none Youtube
+                li.nav-item
+                    a.nav-link(rel='tooltip' title='Facebook de Salvat' data-placement='bottom' href='https://www.facebook.com/GrandesNovelasSalvatArg' target='_blank')
+                        i.fab.fa-facebook-square
+                        p.d-lg-none.d-xl-none Facebook
+                li.nav-item.dropdown
+                    a#navbarScrollingDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-expanded='false')
+                        | Enlaces de interes
+                    ul.dropdown-menu(aria-labelledby='navbarScrollingDropdown')
+
+                          li
+                            a.dropdown-item(href='https://ar.salvat.com/') Salvat Argentina
+                          li
+                            a.dropdown-item(href='https://www.facebook.com/GrandesNovelasSalvatArg') Facebook Salvat
+                          li
+                            a.dropdown-item(href='https://ar.salvat.com/colecciones/grandes-novelas-aventuras/index.html#obra') Obra Editorial
+                          li
+                            a.dropdown-item(href='https://www.youtube.com/channel/UCUAu1fWh-Bbbanz2EnnHUjQ') Canal de Youtube
+
+                          li
+                            a.dropdown-item(href='https://brihet.com.ar/product/grandes-novelas-de-aventuras/') Donde Comprar?
+// End Navbar
+
+
