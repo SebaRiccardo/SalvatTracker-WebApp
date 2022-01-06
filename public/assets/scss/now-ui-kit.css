@@ -2591,6 +2591,9 @@ p {
 .text-danger {
   color: #FF3636 !important; }
 
+.text-robinson-light-green {
+  color: #698a86 !important; }
+
 .text-black {
   color: #444; }
 
@@ -2650,7 +2653,7 @@ p {
     .blockquote.blockquote-white small {
       color: rgba(255, 255, 255, 0.8); }
   .blockquote.blockquote-green {
-    border-color: #4a615f;
+    border-color: #698a86;
     color: #3d504e; }
     .blockquote.blockquote-green small {
       color: #3d504e; }
@@ -3526,7 +3529,7 @@ Created using IcoMoon - icomoon.io
   background-color: #2d406f !important; }
 
 .bg-green {
-  background-color: #4a615f !important; }
+  background-color: #698a86 !important; }
 
 .bg-info {
   background-color: #2CA8FF !important; }
@@ -4768,7 +4771,7 @@ img {
     -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
     .sidebar-collapse .navbar-collapse:before {
-      background: #4a615f;
+      background: #698a86;
       display: block;
       content: "";
       position: absolute;
@@ -5090,7 +5093,7 @@ img {
     -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
     .burger-menu .navbar-collapse:before {
-      background: #4a615f;
+      background: #698a86;
       display: block;
       content: "";
       position: absolute;
@@ -5303,8 +5306,12 @@ img {
     float: right; }
   .navbar {
     height: 60px; }
-  .card-book-image {
-    width: 50%; } }
+  .ilustration-images-row {
+    flex-wrap: nowrap; } }
+
+@media screen and (min-width: 1100px) {
+  .ilustration-images-row {
+    flex-wrap: nowrap; } }
 
 @media screen and (min-width: 768px) {
   .image-container.image-right {
@@ -5318,7 +5325,17 @@ img {
   .section-title {
     margin-top: 100px; }
   .card-book-image {
-    width: 50%; } }
+    width: 50%; }
+  .ilustration-images-row {
+    flex-wrap: wrap; }
+  .right-row {
+    flex-wrap: nowrap; }
+  .img-responsive {
+    max-width: 75%; } }
+
+@media screen and (max-width: 576px) {
+  .card-book-image {
+    width: 40%; } }
 
 @media screen and (max-width: 768px) {
   .image-container.image-left {
@@ -5352,7 +5369,10 @@ img {
     .section-nucleo-icons .icons-container i:nth-child(6) {
       font-size: 48px; }
   .page-header .container h6.category-absolute {
-    width: 90%; } }
+    width: 90%; }
+  .img-responsive {
+    margin-right: 0;
+    margin-left: 0; } }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
   .section-images .hero-images-container-1 {
@@ -5387,7 +5407,9 @@ img {
     right: 21%; }
   .section-images .hero-images-container-2 {
     top: 66%;
-    right: 14%; } }
+    right: 14%; }
+  .ilustration-images-row {
+    flex-wrap: nowrap; } }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .section-images .hero-images-container,

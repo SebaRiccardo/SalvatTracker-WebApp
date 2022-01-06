@@ -1,0 +1,53 @@
+
+
+
+  //title container
+  .container.mt-5
+     .row.d-inline.pt-5
+       .col.d-flex.justify-content-center.mt-5.px-0
+         h2.Cinzel-Decorative-font.display-3.text-white.section-title Grandes Novelas de
+       .col.d-flex.justify-content-center
+         h1(data-heading='Aventuras').Cinzel-Decorative-font.display-1.main-title Aventuras
+
+  //book grids
+  .container-xl
+    - var books = list
+    .row.mx-1
+      each book in books
+        .col.col-xxl-3.col-xl-4.col-lg-12.col-md-12.col-sm-12.col-xs-12.d-flex.align-items-stretch.justify-content-center
+          .card.mb-4
+             .row.d-flex.justify-content-center
+                 img.card-img-top(src=book.picture, alt='...').card-book-image.m-2
+             .card-body
+                 h3.h3-reponsive.card-title=book.title
+                 h6.h6-reponsive.card-subtitle.mb-2.text-muted=book.author
+                 ul.list-group.list-group-flush
+                    //all the book info
+                    li.list-group-item.p-0
+                        .card-text
+                        //prices info
+                        .container.fluid.mt-4.section-prices
+                            .row.d-flex
+                                h5.h5-reponsive="Precio de Venta: $"+ book.price
+                                h5.h5-reponsive.ml-1.text-info=" + $45 (Recargo Interior)"
+                        // release info
+                        if book.wasReleased
+                            h5.h5-reponsive="Lanzamiento: " + book.releaseDate
+                        else
+                            h5.h5-reponsive="Fecha estimada de lanzamiento* : " + book.releaseDate
+                    li.list-group-item.p-0
+                      // extra info
+                      .card-footer.text-muted
+                         if book.wasReleased
+                              .container.fluid.section-prices
+                                  .row.text-success
+                                      h6.h6-reponsive.small.mr-2.mb-0="Ya en Kioscos"
+                                      i.now-ui-icons.ui-1_check.font-weight-bold
+                         else
+                           .container.fluid.section-prices
+                              .row.text-warning
+                                  h6.h6-reponsive.small.mr-2="Proximamente"
+                                  i.now-ui-icons.loader_refresh.font-weight-bold
+                         h6.h6-reponsive.my-3="ISBN: " + book.ISBN
+                         h5.h5-reponsive.mb-3=book.editorial
+                         h6.small.text-danger="(*Las fechas de entrega pueden variar)"

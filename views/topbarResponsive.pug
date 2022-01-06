@@ -1,21 +1,9 @@
 nav.navbar.navbar-expand-lg.bg-green.fixed-top.navbar-transparent(color-on-scroll='200')
     .container
-        .dropdown.button-dropdown
-            a#navbarDropdown.dropdown-toggle(href='#pablo' data-toggle='dropdown')
-                span.button-bar
-                span.button-bar
-                span.button-bar
-            .dropdown-menu(aria-labelledby='navbarDropdown')
-                a.dropdown-header Paginas Oficiales
-                a.dropdown-item(href='https://ar.salvat.com/') Salvat Argentina
-                a.dropdown-item(href='https://www.facebook.com/GrandesNovelasSalvatArg') Facebook Salvat
-                a.dropdown-item(href='https://ar.salvat.com/colecciones/grandes-novelas-aventuras/index.html#obra') Obra Editorial
-                a.dropdown-item(href='https://www.youtube.com/channel/UCUAu1fWh-Bbbanz2EnnHUjQ') Canal de Youtube
-                .dropdown-divider
-                a.dropdown-item(href='https://brihet.com.ar/product/grandes-novelas-de-aventuras/') Donde Comprar?
+
         .navbar-translate
             a.navbar-brand(href='/' rel='tooltip' title=':)' data-placement='bottom' target='_blank')
-                | Book Collection Tracker
+                | Collection Tracker
             button.navbar-toggler.navbar-toggler(type='button' data-toggle='collapse' data-target='#navigation' aria-controls='navigation-index' aria-expanded='false' aria-label='Toggle navigation')
                 span.navbar-toggler-bar.top-bar
                 span.navbar-toggler-bar.middle-bar
@@ -32,8 +20,9 @@ nav.navbar.navbar-expand-lg.bg-green.fixed-top.navbar-transparent(color-on-scrol
                         p.d-lg-none.d-xl-none Facebook
                 li.nav-item.dropdown
                     a#navbarScrollingDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-expanded='false')
-                        | Enlaces de interes
-                    ul.dropdown-menu(aria-labelledby='navbarScrollingDropdown')
+                        i.now-ui-icons.business_bulb-63.font-weight-bold
+                        p.d-lg-none.d-xl-none Enlaces de Interes
+                    ul.dropdown-menu
 
                           li
                             a.dropdown-item(href='https://ar.salvat.com/') Salvat Argentina
