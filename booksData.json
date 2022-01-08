@@ -56,7 +56,7 @@
     "releaseDate": "07-12-2021",
     "price": 1299.90,
     "extrafees": 45,
-    "ISBN": 0 ,
+    "ISBN": 9788447148639 ,
     "description": "",
     "author":"Emilio Salgari",
     "picture": "/assets/img/covers/Los tigres de Mompracem.png",
@@ -78,30 +78,30 @@
     "romanNumber":"XVIII"
   },
   {
-    "title":"Los 3 Mosqueteros Vol. 1",
+    "title":"Los 3 Mosqueteros Vol. I",
     "releaseDate": "21-12-2021",
     "price": 1299.90,
     "extrafees": 45,
-    "ISBN": 0 ,
+    "ISBN": 9788447148592 ,
     "description": "",
     "author":"Alejandro Dumas",
     "picture": "/assets/img/covers/Los Tres Mosqueteros vol. I.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"VII"
   },
   {
-    "title":"Los 3 Mosqueteros Vol. 2",
+    "title":"Los 3 Mosqueteros Vol. II",
     "releaseDate": "28-12-2021",
     "price": 1299.90,
     "extrafees": 45,
-    "ISBN": 0 ,
+    "ISBN": 9788447148608 ,
     "description": "",
     "author":"Alejandro Dumas",
     "picture": "/assets/img/covers/Los Tres Mosqueteros vol. II.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"VIII"
   },
   {
     "title":"El Ultimo de los Mohicanos",
