@@ -379,7 +379,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   border-radius: 3px;
   background: #FFF;
   cursor: default;
-  box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+  box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
   -webkit-transition: 300ms ease 0s;
   -moz-transition: 300ms ease 0s;
   -ms-transition: 300ms ease 0s;
@@ -2591,8 +2591,41 @@ p {
 .text-danger {
   color: #FF3636 !important; }
 
+.text-robinson-light-green {
+  color: #698a86 !important; }
+
 .text-black {
   color: #444; }
+
+.Tangerine-font {
+  font-family: "Tangerine", Arial; }
+
+.Cinzel-Decorative-font {
+  font-family: "Cinzel Decorative", Arial; }
+
+.Comfortaa-font {
+  font-family: "Comfortaa", cursive; }
+
+.main-title {
+  background: linear-gradient(to bottom, #cfc09f 22%, #634f2c 24%, #cfc09f 26%, #cfc09f 27%, #ffecb3 40%, #3a2c0f 78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 10vw;
+  margin: 0;
+  font-weight: 400; }
+
+.main-title:after {
+  background: none;
+  content: attr(data-heading);
+  left: 0;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+  text-shadow: -1px 0 1px #c6bb9f, 0 1px 1px #c6bb9f, 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4); }
 
 .blockquote {
   border-left: none;
@@ -2619,6 +2652,146 @@ p {
     color: #FFFFFF; }
     .blockquote.blockquote-white small {
       color: rgba(255, 255, 255, 0.8); }
+  .blockquote.blockquote-green {
+    border-color: #698a86;
+    color: #3d504e; }
+    .blockquote.blockquote-green small {
+      color: #3d504e; }
+
+/* Si la pantalla es 200px de ancho o mas*/
+@media screen and (min-width: 200px) {
+  .section-title {
+    font-size: 3.4em; }
+  .section-subtitle {
+    font-size: 1.3em; }
+  .section-body {
+    font-size: 1.3em; }
+  .muelita-font-size {
+    font-size: 0em; }
+  .h3-reponsive {
+    font-size: 1.6em; }
+  .h4-reponsive {
+    font-size: 1.2em; }
+  .h5-reponsive {
+    font-size: 1.8em; }
+  .h6-reponsive {
+    font-size: 1.5em; } }
+
+/* Si la pantalla es 280px de ancho o mas*/
+@media screen and (min-width: 280px) {
+  .section-title {
+    font-size: 3.4em; }
+  .section-subtitle {
+    font-size: 1.3em; }
+  .section-body {
+    font-size: 1.3em; }
+  .muelita-font-size {
+    font-size: 0em; }
+  .h3-reponsive {
+    font-size: 1.6em; }
+  .h4-reponsive {
+    font-size: 1.2em; }
+  .h5-reponsive {
+    font-size: 1.8em; }
+  .h6-reponsive {
+    font-size: 1.5em; } }
+
+/* Si la pantalla es 320px de ancho o mas*/
+@media screen and (min-width: 320px) {
+  .section-title {
+    font-size: 2.4em; }
+  .section-subtitle {
+    font-size: 1.6em; }
+  .section-body {
+    font-size: 1.3em; }
+  .muelita-font-size {
+    font-size: 0em; }
+  .h3-reponsive {
+    font-size: 2.5em; }
+  .h4-reponsive {
+    font-size: 2.0em; }
+  .h5-reponsive {
+    font-size: 1.7em; }
+  .h6-reponsive {
+    font-size: 1.4em; } }
+
+/* Si la pantalla es 480px de ancho o mas*/
+@media screen and (min-width: 480px) {
+  .section-title {
+    font-size: 2.6em; }
+  .section-subtitle {
+    font-size: 1.8em; }
+  .section-body {
+    font-size: 1.3em; }
+  .muelita-font-size {
+    font-size: 0em; }
+  .h3-reponsive {
+    font-size: 2.5em; }
+  .h4-reponsive {
+    font-size: 2.0em; }
+  .h5-reponsive {
+    font-size: 1.7em; }
+  .h6-reponsive {
+    font-size: 1.4em; } }
+
+/* Si la pantalla es 768px de ancho o mas*/
+@media screen and (min-width: 768px) {
+  .section-title {
+    font-size: 4.0em; }
+  .section-subtitle {
+    font-size: 1.9em; }
+  .section-body {
+    font-size: 1.4em; }
+  .muelita-font-size {
+    font-size: 1.9em; }
+  .h3-reponsive {
+    font-size: 3.0em; }
+  .h4-reponsive {
+    font-size: 2.0em; }
+  .h5-reponsive {
+    font-size: 1.7em; }
+  .h6-reponsive {
+    font-size: 1.4em; }
+  .navbar-brand-responsive {
+    font-size: 1em; } }
+
+/* Si la pantalla es 1024px de ancho o mas*/
+@media screen and (min-width: 1024px) {
+  .section-title {
+    font-size: 4.6em; }
+  .section-subtitle {
+    font-size: 2em; }
+  .section-body {
+    font-size: 1.5em; }
+  .muelita-font-size {
+    font-size: 2em; }
+  .h3-reponsive {
+    font-size: 2.825em; }
+  .h4-reponsive {
+    font-size: 2.3em; }
+  .h5-reponsive {
+    font-size: 2.0em; }
+  .h6-reponsive {
+    font-size: 1.5em; } }
+
+/* Si la pantalla es 1200px de ancho o mas*/
+@media screen and (min-width: 1200px) {
+  .section-title {
+    font-size: 4.6em; }
+  .section-subtitle {
+    font-size: 2.8em; }
+  .section-body {
+    font-size: 1.5em; }
+  .muelita-font-size {
+    font-size: 3.5em; }
+  .h3-reponsive {
+    font-size: 2.3em; }
+  .h4-reponsive {
+    font-size: 1.8em; }
+  .h5-reponsive {
+    font-size: 1.3em; }
+  .h6-reponsive {
+    font-size: 1.0em; } }
 
 body {
   color: #2c2c2c;
@@ -2626,7 +2799,8 @@ body {
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  background: radial-gradient(ellipse at center, #bffbfa 40%, black); }
 
 .main {
   position: relative;
@@ -3350,6 +3524,12 @@ Created using IcoMoon - icomoon.io
 
 .bg-primary {
   background-color: #f96332 !important; }
+
+.bg-top-bar-color {
+  background-color: #2d406f !important; }
+
+.bg-green {
+  background-color: #698a86 !important; }
 
 .bg-info {
   background-color: #2CA8FF !important; }
@@ -4591,18 +4771,7 @@ img {
     -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
     .sidebar-collapse .navbar-collapse:before {
-      background: #f96332;
-      /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(#f96332 0%, #000 80%);
-      /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(#f96332 0%, #000 80%);
-      /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(#f96332 0%, #000 80%);
-      /* For Firefox 3.6 to 15 */
-      background: linear-gradient(#f96332 0%, #000 80%);
-      /* Standard syntax (must be last) */
-      opacity: 0.76;
-      filter: alpha(opacity=76);
+      background: #698a86;
       display: block;
       content: "";
       position: absolute;
@@ -4924,18 +5093,7 @@ img {
     -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
     .burger-menu .navbar-collapse:before {
-      background: #f96332;
-      /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(#f96332 0%, #000 80%);
-      /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(#f96332 0%, #000 80%);
-      /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(#f96332 0%, #000 80%);
-      /* For Firefox 3.6 to 15 */
-      background: linear-gradient(#f96332 0%, #000 80%);
-      /* Standard syntax (must be last) */
-      opacity: 0.76;
-      filter: alpha(opacity=76);
+      background: #698a86;
       display: block;
       content: "";
       position: absolute;
@@ -5145,7 +5303,15 @@ img {
       position: relative;
       top: 1px; }
   .footer .copyright {
-    float: right; } }
+    float: right; }
+  .navbar {
+    height: 60px; }
+  .ilustration-images-row {
+    flex-wrap: nowrap; } }
+
+@media screen and (min-width: 1100px) {
+  .ilustration-images-row {
+    flex-wrap: nowrap; } }
 
 @media screen and (min-width: 768px) {
   .image-container.image-right {
@@ -5153,7 +5319,23 @@ img {
     margin-left: -100px;
     margin-bottom: 130px; }
   .image-container.image-left {
-    margin-right: -100px; } }
+    margin-right: -100px; }
+  .section-prices {
+    margin-left: 0; }
+  .section-title {
+    margin-top: 100px; }
+  .card-book-image {
+    width: 50%; }
+  .ilustration-images-row {
+    flex-wrap: wrap; }
+  .right-row {
+    flex-wrap: nowrap; }
+  .img-responsive {
+    max-width: 75%; } }
+
+@media screen and (max-width: 576px) {
+  .card-book-image {
+    width: 40%; } }
 
 @media screen and (max-width: 768px) {
   .image-container.image-left {
@@ -5170,6 +5352,8 @@ img {
     text-align: center; }
     .nav-tabs .nav-item > .nav-link {
       margin-bottom: 5px; }
+  .navbar {
+    height: 60px; }
   .landing-page .section-story-overview .image-container:nth-child(2) {
     margin-left: 0;
     margin-bottom: 30px; } }
@@ -5185,7 +5369,10 @@ img {
     .section-nucleo-icons .icons-container i:nth-child(6) {
       font-size: 48px; }
   .page-header .container h6.category-absolute {
-    width: 90%; } }
+    width: 90%; }
+  .img-responsive {
+    margin-right: 0;
+    margin-left: 0; } }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
   .section-images .hero-images-container-1 {
@@ -5220,7 +5407,9 @@ img {
     right: 21%; }
   .section-images .hero-images-container-2 {
     top: 66%;
-    right: 14%; } }
+    right: 14%; }
+  .ilustration-images-row {
+    flex-wrap: nowrap; } }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .section-images .hero-images-container,

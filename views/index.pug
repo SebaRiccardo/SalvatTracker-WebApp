@@ -1,43 +1,129 @@
 extends layout
 
 block content
-  nav.navbar.navbar-expand-lg.bg-primary
-    .container
-      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#example-navbar', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
-        span.navbar-toggler-bar.bar1
-        span.navbar-toggler-bar.bar2
-        span.navbar-toggler-bar.bar3
-      #navbarTogglerDemo01.collapse.navbar-collapse
-        a.navbar-brand(href='#') Hidden brand
-        ul.navbar-nav.mr-auto.mt-2.mt-lg-0
-          li.nav-item.active
-            a.nav-link(href='#')
-              | Home
-              span.sr-only (current)
-          li.nav-item
-            a.nav-link(href='#') Link
-          li.nav-item
-            a.nav-link.disabled(href='#') Disabled
-        form.form-inline.ml-auto(data-background-color='')
-          .form-group.has-white
-            input.form-control(type='text', placeholder='Search')
 
+ .wrapper
+    .page-header.page-header-small
+        .page-header-image(data-parallax='true' style="background-image: url('/assets/img/background/library-bg.jpg');")
+        .content-center
+            .container
+                h1.title.Cinzel-Decorative-font Grandes Novelas de
+                .col.d-flex.justify-content-center
+                    h1(data-heading='Aventuras').Cinzel-Decorative-font.display-1.main-title Aventuras
+    .section.section-about-us
+        .container
+            .row
+                .col-md-8.ml-auto.mr-auto.text-center
+                    h2.title.font-weight-light Para quien es esta pagina?
+                    h5.description
+                        | Para todos aquellos interesados en la coleccion
+                        b.text-warning=" Grandes Novelas de Aventuras "
+                        |  de la editorial Salvat y quieran seguir semana tras semana los lanzamientos de esta magnifica coleccion.
+            .separator.separator-primary
+            .section-story-overview
+                .row
+                    .col-sm-6
+                       .row.ilustration-images-row.justify-content-center
+                            img(src='/assets/img/ilustraciones/ilustracion (1).png' style="margin-right: -40px")
+                            img(src='/assets/img/ilustraciones/ilustracion (3).png' style="margin-left: -50px").img-responsive
+                    .col-sm-6
+                        .row.ilustration-images-row.right-row.justify-content-center
+                            img(src='/assets/img/ilustraciones/ilustracion (2).png' style="margin-right: -40px; margin-left: -40px").img-responsive
+                            img(src='/assets/img/ilustraciones/ilustracion (5).png' style="margin-left: -80px").img-responsive
 
-  // book grids
-  .container-fluid
-    - var books = list
-    .row
-      each book in books
-        .col.col-lg-4.col-md-12.col-sm-12.d-flex.align-items-stretch.justify-content-center
-          .card.mb-3(style='max-width: 940px;')
-            .row.no-gutters
-              .col-md-4
-                img(src=book.picture, alt='...')
-              .col-md-8
-                .card-body
-                  h5.card-title=book.title
-                  h6.card-subtitle.mb-2.text-muted=book.author
-                  p.card-text=book.description
+                        // First image on the right side, above the article
 
-                  p.card-text
-                    small.text-muted="Fecha de lanzamiento en Argentina:" + book.releaseDate
+                        h3.text-robinson-light-green.font-weight-normal La nueva obra editorial consta de 60 entregas con ilustraciones
+                        p
+                            | La técnica del grabado fue especialmente fructífera en el período del Romanticismo, cuando adquirió su condición plena de género artístico. Su técnica y ejecución permitieron dar rienda suelta a los sentimientos, miedos y anhelos de cada novela, dotándolas de personalidad propia.
+
+    .section.section-team.text-center
+
+          //book grids
+          .container-xl
+            .section-title
+                h3.Cinzel-Decorative-font Entregas
+            - var books = list
+            .row.mx-1
+              each book in books
+                .col.col-xxl-3.col-xl-4.col-lg-6.col-md-12.col-sm-12.col-xs-12.d-flex.align-items-stretch.justify-content-center
+                  .card.mb-4
+                     .row.d-flex.justify-content-center
+                         img.card-img-top(src=book.picture, alt='...').card-book-image.m-2
+                     .card-body
+                         h3.h3-reponsive.card-title=book.title
+                         h6.h6-reponsive.card-subtitle.mb-2.text-muted=book.author
+                         ul.list-group.list-group-flush
+                            //all the book info
+                            li.list-group-item.p-0
+                                .card-text
+                                //prices info
+                                .container.fluid.mt-4.section-prices
+                                    .row.d-flex
+                                        h5.h5-reponsive="Precio de Venta: $"+ book.price
+                                        h5.h5-reponsive.ml-1.text-info=" + $45 (Recargo Interior)"
+                                // release info
+                                if book.wasReleased
+                                    h5.h5-reponsive="Lanzamiento: " + book.releaseDate
+                                else
+                                    h5.h5-reponsive="Fecha estimada de lanzamiento* : " + book.releaseDate
+                            li.list-group-item.p-0
+                              // extra info
+                              .card-footer.text-muted
+                                 if book.wasReleased
+                                      .container.fluid.section-prices
+                                          .row.text-success
+                                              h6.h6-reponsive.small.mr-2.mb-0="Ya en Kioscos"
+                                              i.now-ui-icons.ui-1_check.font-weight-bold
+                                 else
+                                   .container.fluid.section-prices
+                                      .row.text-warning
+                                          h6.h6-reponsive.small.mr-2="Proximamente"
+                                          i.now-ui-icons.loader_refresh.font-weight-bold
+                                 h6.h6-reponsive.my-3="ISBN: " + book.ISBN
+                                 h5.h5-reponsive.mb-3=book.editorial
+                                 h6.small.text-danger="(*Las fechas de entrega pueden variar)"
+
+    //
+     .section.section-contact-us.text-center
+        .container
+            h2.title Want to work with us?
+            p.description Your project is very important to us.
+            .row
+                .col-lg-6.text-center.col-md-8.ml-auto.mr-auto
+                    .input-group.input-lg
+                        .input-group-prepend
+                            span.input-group-text
+                                i.now-ui-icons.users_circle-08
+                        input.form-control(type='text' placeholder='First Name...')
+                    .input-group.input-lg
+                        .input-group-prepend
+                            span.input-group-text
+                                i.now-ui-icons.ui-1_email-85
+                        input.form-control(type='text' placeholder='Email...')
+                    .textarea-container
+                        textarea.form-control(name='name' rows='4' cols='80' placeholder='Type a message...')
+                    .send-button
+                        a.btn.btn-primary.btn-round.btn-block.btn-lg(href='#pablo') Send Message
+
+    footer.footer.footer-default
+        .container
+            nav
+                ul
+                    li
+                        a(href='https://ar.salvat.com/')
+                            | Salvat Argentina
+                    li
+                        a(href='')
+                            | About Us
+                    li
+                        a(href='https://brihet.com.ar/product/grandes-novelas-de-aventuras/')
+                            | Donde Comprar?
+            #copyright.copyright
+                | &copy;
+                script.
+                  document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+
+                | . Coded by
+                a(href='' target='_blank').text-robinson-light-green Soathekid
+                | .

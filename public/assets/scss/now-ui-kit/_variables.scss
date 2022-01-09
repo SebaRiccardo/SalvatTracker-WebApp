@@ -3,7 +3,9 @@
 //## For each of Bootstrap's buttons, define text, background and border color.
 
 $sans-serif-family:          'Montserrat', 'Helvetica Neue',  Arial, sans-serif !default;
-
+$Tangerine-font:             'Tangerine', Arial !default;
+$Cinzel-Decorative:          'Cinzel Decorative', Arial !default;
+$Comfortaa:                  'Comfortaa', cursive;
 $none:                       0   !default;
 $border-thin:                1px !default;
 $border-thick:               2px !default;
@@ -42,6 +44,13 @@ $opacity-2:                  rgba(255,255,255, .2) !default;
 $transparent-bg:             transparent !default;
 $dark-background:            #555555 !default;
 
+//my colors
+$robinson-green: #3d504e !default;
+$robinson-light-green: lighten($robinson-green, 20%) !default;
+$light-aqua-green: #bffbfa !default
+$tom-sawyer-blue: #2d406f !default;
+$golden-color: #ffd37e !default;
+
 $default-color:              #888888 !default;
 $default-states-color:       lighten($default-color, 6%) !default;
 $default-color-opacity:      rgba(182, 182, 182, .6) !default;
@@ -72,6 +81,7 @@ $danger-color-opacity:       rgba(255, 54, 54, .3) !default;
 $danger-color-alert:         rgba(255, 54, 54, .8) !default;
 
 /*     brand Colors              */
+
 $brand-primary:              $primary-color !default;
 $brand-info:                 $info-color !default;
 $brand-success:              $success-color !default;
