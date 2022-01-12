@@ -125,7 +125,7 @@
     "description": "",
     "author":"Walter Scott",
     "picture": "/assets/img/covers/Ivanhoe.png",
-    "wasReleased": false,
+    "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
     "romanNumber":""
   },
