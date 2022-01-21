@@ -138,7 +138,7 @@
     "description": "",
     "author":"Robert Louis Stevenson",
     "picture": "/assets/img/covers/La flecha negra.png",
-    "wasReleased": false,
+    "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
     "romanNumber":""
   },
