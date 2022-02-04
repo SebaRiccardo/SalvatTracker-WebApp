@@ -121,13 +121,13 @@
     "releaseDate": "11-01-2022",
     "price": 1409.90,
     "extrafees": 45,
-    "ISBN": 0 ,
+    "ISBN": 9788447148622 ,
     "description": "",
     "author":"Walter Scott",
     "picture": "/assets/img/covers/Ivanhoe.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"XLIV"
   },
   {
     "title":"La Flecha Negra",
