@@ -151,7 +151,7 @@
     "description": "",
     "author":"Henry Rider Haggard",
     "picture": "/assets/img/covers/Las minas del Rey Salomón.png",
-    "wasReleased": false,
+    "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
     "romanNumber":""
   },
