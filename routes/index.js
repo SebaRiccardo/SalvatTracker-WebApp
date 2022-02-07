@@ -6,7 +6,8 @@ const data = require('../booksData.json')
 router.get('/', function(req, res, next) {
 
      let  booksList = data
-     console.log("Books count: "+booksList.length)
+
+     console.log("| INDEX REQUESTED -> :)")
      res.render('index', { list: booksList});
 });
 
