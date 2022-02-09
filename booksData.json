@@ -134,13 +134,13 @@
     "releaseDate": "18-01-2022",
     "price": 1409.90,
     "extrafees": 45,
-    "ISBN": 0 ,
+    "ISBN": 9788447148677 ,
     "description": "",
     "author":"Robert Louis Stevenson",
     "picture": "/assets/img/covers/La flecha negra.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"LIV"
   },
   {
     "title":"Las Minas del Rey Salomón",
