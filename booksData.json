@@ -585,27 +585,14 @@
     "romanNumber":""
   },
   {
-    "title":"El León de Damasco",
+    "title":"Los Piratas del Mar Rojo",
     "releaseDate": "20-09-2022",
     "price": 0,
     "extrafees": 45,
     "ISBN": 0 ,
     "description": "",
     "author":"Emilio Salgari",
-    "picture": "/assets/img/covers/El León de Damasco.png",
-    "wasReleased": false,
-    "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
-  },
-  {
-    "title":"Las Aventuras Prodigiosas de Tartarin de Tarascon",
-    "releaseDate": "27-09-2022",
-    "price": 0,
-    "extrafees": 45,
-    "ISBN": 0 ,
-    "description": "",
-    "author":"Alphonse Daudet",
-    "picture": "/assets/img/covers/Las aventuras prodigiosas de Tartarin de Tarascon.png",
+    "picture": "/assets/img/covers/Los piratas del mar Rojo.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
     "romanNumber":""
@@ -619,6 +606,19 @@
     "description": "",
     "author":"Mark Twain",
     "picture": "/assets/img/covers/Tom Sawyer detective.png",
+    "wasReleased": false,
+    "editorial": "Editorial Salvat S.L",
+    "romanNumber":""
+  },
+  {
+    "title":"Las Aventuras Prodigiosas de Tartarin de Tarascon",
+    "releaseDate": "27-09-2022",
+    "price": 0,
+    "extrafees": 45,
+    "ISBN": 0 ,
+    "description": "",
+    "author":"Alphonse Daudet",
+    "picture": "/assets/img/covers/Las aventuras prodigiosas de Tartarin de Tarascon.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
     "romanNumber":""

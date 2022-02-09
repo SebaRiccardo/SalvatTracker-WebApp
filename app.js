@@ -28,7 +28,6 @@ app.use(sassMiddleware({
 app.use(express.static(path.join(__dirname, 'public')));
 
 initDB()
-
 app.use('/', indexRouter);
 
 

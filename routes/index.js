@@ -1,14 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const data = require('../booksData.json')
+const Book = require("../models/Book")
+const PageVisit = require("../models/PageVisit")
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', async function(req, res, next) {
+     const allBooks = await Book.find().lean()
 
-     let  booksList = data
 
-     console.log("| Index page REQUESTED")
-     res.render('index', { list: booksList});
+     await PageVisit.create({user_agent:req.headers['user-agent']})
+
+     console.log("Visit Saved: ",req.headers['user-agent'])
+     res.render('index', { list: allBooks});
 });
 
 module.exports = router;

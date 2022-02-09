@@ -38,7 +38,7 @@ const bookSchema = new Schema({
   }
 });
 
-const Book = moongose.model("Book",bookSchema)
+const Book = mongoose.model("Book",bookSchema)
 
 
-module.exports= { Book }
+module.exports=  Book
