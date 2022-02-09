@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 
      let  booksList = data
 
-     console.log("| Index page REQUESTED -->", new Date())
+     console.log("| Index page REQUESTED")
      res.render('index', { list: booksList});
 });
 
