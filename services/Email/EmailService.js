@@ -40,8 +40,9 @@ class EmailService {
       },
     });
 
-    transporter.verify().then(() => {
-      console.log("Ready for send emails");
+    transporter.verify().then(
+      (ready) => {
+      console.log("Ready for send emails",ready);
     });
 
     return transporter
