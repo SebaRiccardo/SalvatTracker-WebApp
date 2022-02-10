@@ -2800,7 +2800,7 @@ body {
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background: radial-gradient(ellipse at center, #bffbfa 40%, black); }
+  background: radial-gradient(ellipse at center, #bffbfa 40%, #373737); }
 
 .main {
   position: relative;

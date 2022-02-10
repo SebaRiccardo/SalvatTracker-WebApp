@@ -8,7 +8,7 @@ const initDB = require("./db/DbConnection");
 
 
 const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
+const mailsRouter = require('./routes/mails');
 
 const app = express();
 
@@ -29,6 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 initDB()
 app.use('/', indexRouter);
+app.use('/message',mailsRouter)
 
 
 // catch 404 and forward to error handler

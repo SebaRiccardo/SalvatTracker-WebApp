@@ -10,7 +10,8 @@
     "picture": "/assets/img/covers/La isla del tesoro.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":"XIV"
+    "romanNumber":"XIV",
+    "releasedOrder":1
   },
   {
     "title":"Robinson Crusoe",
@@ -23,7 +24,8 @@
     "picture": "/assets/img/covers/Robinson Crusoe.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":"XXI"
+    "romanNumber":"XXI",
+    "releasedOrder":2
   },
   {
     "title":"La Vuelta al Mundo en 80 Dias\t",
@@ -36,7 +38,8 @@
     "picture": "/assets/img/covers/La vuelta al mundo en 80 días.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":"XXIV"
+    "romanNumber":"XXIV",
+    "releasedOrder":3
   },
   {
     "title":"Las Aventuras de Tom Sawyer",
@@ -49,7 +52,8 @@
     "picture": "/assets/img/covers/Las aventuras de Tom Sawyer.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":"XI"
+    "romanNumber":"XI",
+    "releasedOrder":4
   },
   {
     "title":"Los Tigres de Mompracem",
@@ -62,7 +66,8 @@
     "picture": "/assets/img/covers/Los tigres de Mompracem.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":"XII"
+    "romanNumber":"XII",
+    "releasedOrder":5
   },
   {
     "title":"Colmillo Blanco",
@@ -75,7 +80,8 @@
     "picture": "/assets/img/covers/Colmillo blanco.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":"XVIII"
+    "romanNumber":"XVIII",
+    "releasedOrder":6
   },
   {
     "title":"Los 3 Mosqueteros Vol. I",
@@ -88,7 +94,8 @@
     "picture": "/assets/img/covers/Los Tres Mosqueteros vol. I.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":"VII"
+    "romanNumber":"VII",
+    "releasedOrder":7
   },
   {
     "title":"Los 3 Mosqueteros Vol. II",
@@ -101,7 +108,8 @@
     "picture": "/assets/img/covers/Los Tres Mosqueteros vol. II.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":"VIII"
+    "romanNumber":"VIII",
+    "releasedOrder":8
   },
   {
     "title":"El Ultimo de los Mohicanos",
@@ -114,7 +122,8 @@
     "picture": "/assets/img/covers/El último de los mohicanos.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":"XXVII"
+    "romanNumber":"XXVII",
+    "releasedOrder":9
   },
   {
     "title":"Ivanhoe",
@@ -127,7 +136,8 @@
     "picture": "/assets/img/covers/Ivanhoe.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":"XLIV"
+    "romanNumber":"XLIV",
+    "releasedOrder":10
   },
   {
     "title":"La Flecha Negra",
@@ -140,7 +150,8 @@
     "picture": "/assets/img/covers/La flecha negra.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":"LIV"
+    "romanNumber":"LIV",
+    "releasedOrder":11
   },
   {
     "title":"Las Minas del Rey Salomón",
@@ -153,7 +164,8 @@
     "picture": "/assets/img/covers/Las minas del Rey Salomón.png",
     "wasReleased": true,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":12
   },
   {
     "title":"El Libro de la Selva",
@@ -166,7 +178,8 @@
     "picture": "/assets/img/covers/El libro de la selva.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":13
   },
   {
     "title":"Los viajes de Gulliver",
@@ -179,7 +192,8 @@
     "picture": "/assets/img/covers/Los viajes de Gulliver.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":14
   },
   {
     "title":"Veinte Mil Leguas de Viaje Submarinos",
@@ -192,7 +206,8 @@
     "picture": "/assets/img/covers/Veinte mil leguas de viaje submarino.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":15
   },
   {
     "title":"Las Aventuras de Huckleberry Finn",
@@ -205,7 +220,8 @@
     "picture": "/assets/img/covers/Las aventuras de Huckleberry Finn.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":16
   },
   {
     "title":"La Llamada de lo Salvaje",
@@ -218,7 +234,8 @@
     "picture": "/assets/img/covers/La llamada de lo salvaje.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":17
   },
   {
     "title":"La Historia de dos Ciudades",
@@ -231,7 +248,8 @@
     "picture": "/assets/img/covers/Historia de dos ciudades.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":18
   },
   {
     "title":"El Principe y el Mendigo",
@@ -244,7 +262,8 @@
     "picture": "/assets/img/covers/El príncipe y el mendigo.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":19
   },
   {
     "title":"La Ultima Batalla",
@@ -257,7 +276,8 @@
     "picture": "/assets/img/covers/La última batalla(Sandokán).png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":20
   },
   {
     "title":"El Extraño Caso de Dr. Jekyll y Mr. Hyde",
@@ -270,7 +290,8 @@
     "picture": "/assets/img/covers/El extraño caso del Dr. Jekyll y Mr. Hyde.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":21
   },
   {
     "title":"Capitanes Intrepidos",
@@ -283,7 +304,8 @@
     "picture": "/assets/img/covers/Capitanes intrépidos.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":22
   },
   {
     "title":"Miguel Strogoff",
@@ -296,7 +318,8 @@
     "picture": "/assets/img/covers/Miguel Strogoff.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":23
   },
   {
     "title":"El Prisionero de Zenda",
@@ -309,7 +332,8 @@
     "picture": "/assets/img/covers/El prisionero de Zenda.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":24
   },
   {
     "title":"Las Aventuras del Barón de Münchausen",
@@ -322,7 +346,8 @@
     "picture": "/assets/img/covers/Las aventuras del Barón de Münchausen.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":25
   },
   {
     "title":"Un Yanqui en la corte del Rey Arturo",
@@ -335,7 +360,8 @@
     "picture": "/assets/img/covers/Un yanqui en la corte del Rey Arturo.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":26
   },
   {
     "title":"El Tesoro del lago de plata",
@@ -348,7 +374,8 @@
     "picture": "/assets/img/covers/El tesoro del lago de la Plata.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":27
   },
   {
     "title":"De la Tierra a la Luna",
@@ -361,7 +388,8 @@
     "picture": "/assets/img/covers/De la Tierra a la Luna.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":28
   },
   {
     "title":"El Corsario Negro",
@@ -374,7 +402,8 @@
     "picture": "/assets/img/covers/El corsario negro.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":29
   },
   {
     "title":"Kim",
@@ -387,7 +416,8 @@
     "picture": "/assets/img/covers/Kim.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":30
   },
   {
     "title":"Viaje al Centro de la Tierra",
@@ -400,7 +430,8 @@
     "picture": "/assets/img/covers/Viaje al centro de la tierra.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":31
   },
   {
     "title":"El Tulipan Negro",
@@ -413,7 +444,8 @@
     "picture": "/assets/img/covers/El tulipán negro.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":32
   },
   {
     "title":"Oliver Twist",
@@ -426,7 +458,8 @@
     "picture": "/assets/img/covers/Las aventuras de Oliver Twist.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":33
   },
   {
     "title":"La Venganza de Sandokan",
@@ -439,7 +472,8 @@
     "picture": "/assets/img/covers/La venganza de Sandokán.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":34
   },
   {
     "title":"El Fantasma de la Opera",
@@ -452,7 +486,8 @@
     "picture": "/assets/img/covers/El Fantasma de la Ópera.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":35
   },
   {
     "title":"El Lobo de Mar",
@@ -465,7 +500,8 @@
     "picture": "/assets/img/covers/El lobo de mar.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":36
   },
   {
     "title":"Cinco Semanas en Globo",
@@ -478,7 +514,8 @@
     "picture": "/assets/img/covers/Cinco semanas en globo.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":37
   },
   {
     "title":"Traición en Oriente",
@@ -491,7 +528,8 @@
     "picture": "/assets/img/covers/Traición en Oriente.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":38
   },
   {
     "title":"Las Alegres Aventuras de Robin Hood",
@@ -504,7 +542,8 @@
     "picture": "/assets/img/covers/Las alegres aventuras de Robin Hood.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":39
   },
   {
     "title":"El Fantasma de Canterville y otros relatos",
@@ -517,7 +556,8 @@
     "picture": "/assets/img/covers/El fantasma de Canterville y otros relatos.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":40
   },
   {
     "title":"Drácula",
@@ -530,7 +570,8 @@
     "picture": "/assets/img/covers/Drácula.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":41
   },
   {
     "title":"La Quimera del Oro",
@@ -543,7 +584,8 @@
     "picture": "/assets/img/covers/La quimera del oro.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":42
   },
   {
     "title":"Primer Viaje alrededor del Globo",
@@ -556,7 +598,8 @@
     "picture": " /assets/img/covers/Primer viaje alrededor del globo.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":43
   },
   {
     "title":"El Escarabajo de Oro y otros relatos",
@@ -569,7 +612,8 @@
     "picture": "/assets/img/covers/El escarabajo de oro y otros relatos.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":44
   },
   {
     "title":"El Sabueso de los Baskerville",
@@ -582,7 +626,8 @@
     "picture": "/assets/img/covers/El sabueso de los Baskerville.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":45
   },
   {
     "title":"Los Piratas del Mar Rojo",
@@ -595,7 +640,8 @@
     "picture": "/assets/img/covers/Los piratas del mar Rojo.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":46
   },
   {
     "title":"Tom Sawyer Detective",
@@ -608,7 +654,8 @@
     "picture": "/assets/img/covers/Tom Sawyer detective.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":47
   },
   {
     "title":"Las Aventuras Prodigiosas de Tartarin de Tarascon",
@@ -621,7 +668,8 @@
     "picture": "/assets/img/covers/Las aventuras prodigiosas de Tartarin de Tarascon.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":48
   },
   {
     "title":"Frankenstein",
@@ -634,7 +682,8 @@
     "picture": "/assets/img/covers/Frankenstein.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":49
   },
   {
     "title":"El Talismán",
@@ -647,7 +696,8 @@
     "picture": "/assets/img/covers/El talismán.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":50
   },
   {
     "title":"El Señor Balantry",
@@ -660,7 +710,8 @@
     "picture": "/assets/img/covers/El señor de Balantry.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":51
   },
   {
     "title":"El León de Damasco",
@@ -673,7 +724,8 @@
     "picture": "/assets/img/covers/El León de Damasco.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":52
   },
   {
     "title":"El Faro del Fin del Mundo",
@@ -686,7 +738,8 @@
     "picture": "/assets/img/covers/El faro del fin del mundo.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":53
   },
   {
     "title":"Estudio en Escarlata",
@@ -699,7 +752,8 @@
     "picture": "/assets/img/covers/Estudio en escarlata.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":54
   },
   {
     "title":"La Cabaña del Tío Tom",
@@ -712,7 +766,8 @@
     "picture": "/assets/img/covers/La cabaña del tío Tom.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":55
   },
   {
     "title":"Quo vadis?",
@@ -725,7 +780,8 @@
     "picture": "/assets/img/covers/Quo vadis.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":56
   },
   {
     "title":"Secuestrado",
@@ -738,7 +794,8 @@
     "picture": "/assets/img/covers/Secuestrado.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":57
   },
   {
     "title":"El Mundo Perdido",
@@ -751,7 +808,8 @@
     "picture": "/assets/img/covers/El mundo perdido.png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":58
   },
   {
     "title":"El Conde de Montecristo (vol.I)",
@@ -764,7 +822,8 @@
     "picture": "/assets/img/covers/El conde de Montecristo (vol.I).png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":59
   },
   {
     "title":"El conde de Montecristo (vol.II)",
@@ -777,7 +836,8 @@
     "picture": "/assets/img/covers/El conde de Montecristo (vol.II).png",
     "wasReleased": false,
     "editorial": "Editorial Salvat S.L",
-    "romanNumber":""
+    "romanNumber":"",
+    "releasedOrder":60
   }
 ]
 

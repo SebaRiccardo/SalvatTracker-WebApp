@@ -43,7 +43,7 @@ block content
           .container-xl
             .section-title
                 h3.Cinzel-Decorative-font Entregas
-            - var books = list
+            - var books = data.books
             .row.mx-1
               each book in books
                 .col.col-xxl-3.col-xl-4.col-lg-6.col-md-12.col-sm-12.col-xs-12.d-flex.align-items-stretch.justify-content-center
@@ -59,7 +59,7 @@ block content
                                 .card-text
                                 //prices info
                                 .container.fluid.mt-4.section-prices
-                                    .row.d-flex
+                                    .row.d-flex.justify-content-center
                                         h5.h5-reponsive="Precio de Venta: $"+ book.price
                                         h5.h5-reponsive.ml-1.text-info=" + $45 (Recargo Interior)"
                                 // release info
@@ -71,40 +71,49 @@ block content
                               // extra info
                               .card-footer.text-muted
                                  if book.wasReleased
-                                      .container.fluid.section-prices
-                                          .row.text-success
-                                              h6.h6-reponsive.small.mr-2.mb-0="Ya en Kioscos"
-                                              i.now-ui-icons.ui-1_check.font-weight-bold
+                                   span.badge.badge-success Ya en Kioscos
                                  else
-                                   .container.fluid.section-prices
-                                      .row.text-warning
-                                          h6.h6-reponsive.small.mr-2="Proximamente"
-                                          i.now-ui-icons.loader_refresh.font-weight-bold
+                                   span.badge.badge-primary Proximamente
                                  h6.h6-reponsive.my-3="ISBN: " + book.ISBN
-                                 h5.h5-reponsive.mb-3=book.editorial
+                                 h6.h6-reponsive.mb-3=book.editorial
                                  h6.small.text-danger="(*Las fechas de entrega pueden variar segun la provincia)"
 
-    //
-     .section.section-contact-us.text-center
+
+    .section.section-contact-us.text-center
+
         .container
-            h2.title Want to work with us?
-            p.description Your project is very important to us.
+            // Alerta mensaje enviado
+            if data.messageSent
+             .alert.alert-warning(role='alert')
+                .container
+                    .alert-icon
+                        i.now-ui-icons.ui-2_like
+                    strong Muchas Gracias por tu mensaje!
+                    button.close(type='button' data-dismiss='alert' aria-label='Close')
+                        span(aria-hidden='true')
+                            i.now-ui-icons.ui-1_simple-remove
+
+            h2.title.font-weight-light Queres dejar un mensaje?
+            p.description No hace falta que uses tu nombre verdadero.
             .row
                 .col-lg-6.text-center.col-md-8.ml-auto.mr-auto
-                    .input-group.input-lg
-                        .input-group-prepend
-                            span.input-group-text
-                                i.now-ui-icons.users_circle-08
-                        input.form-control(type='text' placeholder='First Name...')
-                    .input-group.input-lg
-                        .input-group-prepend
-                            span.input-group-text
-                                i.now-ui-icons.ui-1_email-85
-                        input.form-control(type='text' placeholder='Email...')
-                    .textarea-container
-                        textarea.form-control(name='name' rows='4' cols='80' placeholder='Type a message...')
-                    .send-button
-                        a.btn.btn-primary.btn-round.btn-block.btn-lg(href='#pablo') Send Message
+                    form(action='/message/send' method='POST')
+                      .form-group
+                        .input-group.input-lg
+                            .input-group-prepend
+                                span.input-group-text
+                                    i.now-ui-icons.users_circle-08
+                            input.form-control(id="weiter" name='writer' type='text' placeholder='Nombre o Apodo...')
+                        //.input-group.input-lg
+                            .input-group-prepend
+                                span.input-group-text
+                                    i.now-ui-icons.ui-1_email-85
+                            input.form-control(type='text' placeholder='Email...')
+                        .textarea-container
+                            textarea.form-control(id="message" name='message' rows='4' cols='80' placeholder='Escribe tu mensaje...')
+                        .send-button
+                            button.btn.btn-warning.btn-round.btn-block.btn-lg(type='submit') Enviar
+
 
     footer.footer.footer-default
         .container
@@ -115,7 +124,7 @@ block content
                             | Salvat Argentina
                     li
                         a(href="mailto:soathekid@gmail.com")
-                            | My Email
+                            | Mi Email
                     li
                         a(href='https://brihet.com.ar/product/grandes-novelas-de-aventuras/')
                             | Donde Comprar?
