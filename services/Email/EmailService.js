@@ -39,12 +39,6 @@ class EmailService {
         pass: config.mail.pass,
       },
     });
-
-    transporter.verify().then(
-      (ready) => {
-      console.log("Ready for send emails",ready);
-    });
-
     return transporter
   }
 }

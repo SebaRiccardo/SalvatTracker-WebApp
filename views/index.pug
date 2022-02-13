@@ -80,7 +80,11 @@ block content
 
 
     .section.section-contact-us.text-center
-
+        .container
+            .row
+                // Go to www.addthis.com/dashboard to customize your tools
+                .addthis_inline_share_toolbox
+                .addthis_tipjar_inline
         .container
             // Alerta mensaje enviado
             if data.messageSent
@@ -134,6 +138,6 @@ block content
                   document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
 
                 | . Coded by
-                a(href='mailto:soathekid@gmail.com' target='_blank').text-robinson-light-green   Soathekid
+                a(href='mailto:soathekid@gmail.com' target='_blank').text-warning  Soathekid
                 | .
 
