@@ -15,6 +15,6 @@ module.exports={
     user: process.env.GMAIL_USER,
     pass: process.env.GMAIL_APPLICATION_PASSWORD,
     host:process.env.MAIL_HOST,
-  }
-
+  },
+  environment: process.env.NODE_ENV
 }
