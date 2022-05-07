@@ -1,6 +1,6 @@
 const dotenv = require("dotenv");
 
-if (process.env.NODE_ENV === "development") {
+if (process.env.NODE_ENV === "DEV") {
   const envFound = dotenv.config();
   if (envFound.error) {
     // This error should crash whole process
